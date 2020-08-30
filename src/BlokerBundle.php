@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace BlokerBundle;
+namespace Adsazad\BlokerBundle;
 
 /**
  * Description of BlokerBundle
@@ -14,5 +14,9 @@ namespace BlokerBundle;
  * @author arashdeep
  */
 class BlokerBundle extends \Symfony\Component\HttpKernel\Bundle {
-    //put your code here
+
+    public function getContainerExtension() {
+        return new \Adsazad\BlokerBundle\DependencyInjection\Extension();
+    }
+
 }

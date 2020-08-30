@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BlokerBundle\\": "src/"
+            "Adsazad\\BlokerBundle\\": "src/"
         }
     },
     "autoload-dev": {
