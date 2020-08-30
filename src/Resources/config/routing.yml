@@ -1,0 +1,3 @@
+bloker_bundle:
+    resource: "@BlokerBundle/Controller"
+    type: annotation
