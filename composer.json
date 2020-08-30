@@ -1,4 +1,5 @@
 {
+    "name": "adsazad/bloker-block",
     "type": "symfony-bundle",
     "license": "proprietary",
     "require": {
